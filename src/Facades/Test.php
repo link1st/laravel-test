@@ -7,8 +7,6 @@ class Test extends Facade
 
     /**
      *
-     * /link/www/src/vendor/goodspb/laravel-easemob/src/Facades/Easemob.php
-     *
      * Get the registered name of the component.
      *
      * @return string
