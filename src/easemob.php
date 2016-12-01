@@ -10,7 +10,7 @@ class easemob
      * @return int
      */
     function get_config(){
-        return Config::get('EASEMOB_DOMAIN',"空");
+        return Config::get('easemob.EASEMOB_DOMAIN',"空");
     }
 
 
