@@ -20,7 +20,7 @@ laravel扩展开发
           * 添加别名
           */
         'test'=>link1st\test\Facades\Test::class,
-        ],
+    ],
 ```
 
 生成配置文件
@@ -29,11 +29,11 @@ laravel扩展开发
 
 ## 使用
 ```php
-        // 使用自动加载直接使用
-        $link = new \link1st\test\easemob();
-        echo $link->get_config();
-        
-        // 使用门面使用
-        echo \test::get_config(); 
-        echo \test::index();
+    // 使用自动加载直接使用
+    $link = new \link1st\test\easemob();
+    echo $link->get_config();
+    
+    // 使用门面使用
+    echo \test::get_config(); 
+    echo \test::index();
 ```
